@@ -54,3 +54,4 @@ dkms.conf
 # debug information files
 *.dwo
 sqlite-autoconf-3510100*
+sql_lite_example

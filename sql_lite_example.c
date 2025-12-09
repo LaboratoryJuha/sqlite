@@ -1,7 +1,7 @@
-#include <sqlite3.h>
-#include <stdio.h>
+#include "sql_lite_example.h"
 
 int main() {
-    printf("sqlite3 version: %s\n", sqlite3_libversion());
+    print_sqlite_version();
+
     return 0;
 }
