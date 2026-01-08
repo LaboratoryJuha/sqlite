@@ -6,7 +6,8 @@ LDLIBS = $(LIB_PATHS)/libsqlite3.a
 LDFLAGS = -lm
 TARGET = sql_lite_example
 SRCS = sql_lite_example.c \
-	   sql_lite_version.c
+	   sql_lite_version.c	\
+	   sql_lite_crud.c
 OBJS = $(SRCS:.c=.o)
 
 .PHONY: all clean
